@@ -1,6 +1,6 @@
-from .generateblock
-from .genesisblock
-from .snakecoin
+from generateblock import next_block
+from genesisblock import create_genesis_block
+
 
 # Create the blockchain and add the genesis block
 blockchain = [create_genesis_block()]

@@ -1,5 +1,6 @@
 import datetime as date
-import snakecoin
+from bchain import Block
+
 
 def create_genesis_block():
     # Manually construct a block with
